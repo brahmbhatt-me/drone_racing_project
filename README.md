@@ -1,8 +1,11 @@
-# Autonomous Drone Racing: 3D Path Planning & Trajectory Optimization
+# 🚁 Autonomous Drone Racing: 3D Path Planning & Trajectory Optimization
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brahmbhatt-me/drone_racing_project/blob/main/drone_racing_trajectory_optimization.ipynb)
-[![NBViewer](https://nbviewer.org/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)
+[![View Notebook](https://img.shields.io/badge/View%20Notebook-NBViewer-orange.svg)](https://nbviewer.org/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb?flush_cache=true)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![GTSAM](https://img.shields.io/badge/GTSAM-4.2-green.svg)](https://gtsam.org)
+
+> 🎮 **Click NBViewer badge to see interactive 3D visualizations without running code**
 
 An autonomous drone racing system using **RRT/RRT*** for path planning and **nonlinear trajectory optimization** to navigate through hoops while avoiding obstacles.
 
@@ -14,7 +17,7 @@ An autonomous drone racing system using **RRT/RRT*** for path planning and **non
 |-------|--------|
 | Start position, hoop locations, obstacles | Smooth, collision-free racing trajectory |
 
-**Pipeline:** RRT Path Planning → Collision Checking → Physics-Based Dynamics → Trajectory Optimization
+**Pipeline:** `RRT Path Planning` → `Collision Checking` → `Physics-Based Dynamics` → `Trajectory Optimization`
 
 ---
 
@@ -36,25 +39,7 @@ An autonomous drone racing system using **RRT/RRT*** for path planning and **non
 | Physics | Ignored | Enforced |
 
 ---
----
 
-## 🎬 Visualizations
-
-### RRT Tree Exploration
-![RRT Tree](assets/rrt_tree.png)
-
-### Racing Through Hoops
-![Racing Path](assets/racing_path.png)
-
-### RRT vs Optimized Trajectory
-![Comparison](assets/comparison.png)
-
-### Obstacle Avoidance
-![Obstacles](assets/obstacle_course.png)
-
-> 🎮 **For interactive 3D plots, [open in Colab](https://colab.research.google.com/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)**
-
----
 ## 🛠️ Tech Stack
 
 `Python` `GTSAM` `SciPy` `Plotly` `NumPy`
@@ -63,19 +48,13 @@ An autonomous drone racing system using **RRT/RRT*** for path planning and **non
 
 ## 🚀 Quick Start
 
-Click **Open in Colab** badge above — runs in browser, no setup needed.
+**Option 1:** Click **NBViewer** badge — view all visualizations instantly
 
----
-
-## 📁 Structure
-```
-├── drone_racing_trajectory_optimization.ipynb  # Main notebook
-├── helpers_obstacles.py                         # Utility functions
-└── README.md
-```
+**Option 2:** Click **Colab** badge → Runtime → Run all — full interactive experience
 
 ---
 
 ## 👤 Author
 
 **Meet Brahmbhatt** — MS Robotics, Northeastern University
+```
