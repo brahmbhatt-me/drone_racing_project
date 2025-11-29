@@ -1,7 +1,7 @@
-# 🚁 Autonomous Drone Racing: 3D Path Planning & Trajectory Optimization
+# Autonomous Drone Racing: 3D Path Planning & Trajectory Optimization
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brahmbhatt-me/drone_racing_project/blob/main/drone_racing_trajectory_optimization.ipynb)
-[![NBViewer](https://img.shields.io/badge/View%20with%20Plots-NBViewer-orange.svg)](https://nbviewer.org/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)
+[![NBViewer](https://nbviewer.org/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 
 An autonomous drone racing system using **RRT/RRT*** for path planning and **nonlinear trajectory optimization** to navigate through hoops while avoiding obstacles.
