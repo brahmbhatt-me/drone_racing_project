@@ -44,11 +44,9 @@ An autonomous drone racing system using **RRT/RRT*** for path planning and **non
 
 `Python` `GTSAM` `SciPy` `Plotly` `NumPy`
 
-
-
 ---
 
 ## 👤 Author
 
 **Meet Brahmbhatt** — MS Robotics, Northeastern University
-```
+
