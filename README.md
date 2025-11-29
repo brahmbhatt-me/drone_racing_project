@@ -36,7 +36,25 @@ An autonomous drone racing system using **RRT/RRT*** for path planning and **non
 | Physics | Ignored | Enforced |
 
 ---
+---
 
+## 🎬 Visualizations
+
+### RRT Tree Exploration
+![RRT Tree](assets/rrt_tree.png)
+
+### Racing Through Hoops
+![Racing Path](assets/racing_path.png)
+
+### RRT vs Optimized Trajectory
+![Comparison](assets/comparison.png)
+
+### Obstacle Avoidance
+![Obstacles](assets/obstacle_course.png)
+
+> 🎮 **For interactive 3D plots, [open in Colab](https://colab.research.google.com/github/brahmbhatt-me/drone_racing_project/blob/main/Drone_Project.ipynb)**
+
+---
 ## 🛠️ Tech Stack
 
 `Python` `GTSAM` `SciPy` `Plotly` `NumPy`
